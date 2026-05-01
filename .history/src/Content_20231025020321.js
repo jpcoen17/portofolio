@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
 import About from "./Pages/About";
@@ -23,7 +23,7 @@ const Content = () =>{
   
 
   return (
-     <BrowserRouter>
+     <HashRouter>
       <>
         <div className="container">
           <Routes>
@@ -41,7 +41,7 @@ const Content = () =>{
         </div>
       </>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
