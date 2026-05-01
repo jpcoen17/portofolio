@@ -19,7 +19,7 @@ const Home = () => {
           <div className="slide"></div>
           <div className="image">
           <img 
-            src={process.env.PUBLIC_URL + "/images/profilejpg"}
+            src={process.env.PUBLIC_URL + "/images/profile(1).jpg"}
             width="936"
             height="936"
             alt="profile"

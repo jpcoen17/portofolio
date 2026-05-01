@@ -19,7 +19,7 @@ const Home = () => {
           <div className="slide"></div>
           <div className="image">
           <img 
-            src={process.env.PUBLIC_URL + "/images/profilejpg"}
+            src={process.env.PUBLIC_URL + "/images/profile.png"}
             width="936"
             height="936"
             alt="profile"
@@ -152,7 +152,7 @@ const Wrapper = styled.section`
         top: 0;
         width: 100%;
         height: 52%;
-        background-image: url(${process.env.PUBLIC_URL + "/assets/mountain.jpg"});
+        background-image: url("/assets/mountain.jpg");
         background-color: ${({ theme }) => theme.colors.white};
         background-repeat: no-repeat;
         background-position: 50% 0%;
@@ -316,4 +316,4 @@ const Wrapper = styled.section`
       height: 100%;
     }
   }
-  `;
+;

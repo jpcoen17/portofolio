@@ -19,7 +19,7 @@ const Home = () => {
           <div className="slide"></div>
           <div className="image">
           <img 
-            src={process.env.PUBLIC_URL + "/images/profilejpg"}
+            src={process.env.PUBLIC_URL + "/images/profile.png"}
             width="936"
             height="936"
             alt="profile"
@@ -316,4 +316,4 @@ const Wrapper = styled.section`
       height: 100%;
     }
   }
-  `;
+;
