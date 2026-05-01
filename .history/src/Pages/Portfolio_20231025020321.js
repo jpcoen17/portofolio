@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { ProjImg } from "../Config/Config";
 import { AnimatePresence, motion } from "framer-motion";
-import Works from "../Components/Works";
+import Works from "../components/Works";
 
 const Portfolio = () => {
   const [isActive, SetIsActive] = useState("all")

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Preloader from "./components/Preloader";
+import Preloader from "./Components/Preloader";
 import { GlobalStyle } from "./GlobalStyle/Globalstyle";
-import Cursor from "./components/Cursor";
+import Cursor from "./Components/Cursor";
 import Content from "./Content";
-import Particle from "./components/Particle";
+import Particle from "./Components/Particle";
 import { useGlobalContext } from "./Context";
 import { ThemeProvider } from "styled-components";
 
